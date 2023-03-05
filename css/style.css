@@ -1,0 +1,257 @@
+body{
+    font-family: 'open sans' sans-serif;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.list{
+    list-style: none;
+}
+
+.header{
+    background-color: green;
+}
+
+.header-link{
+font-weight: 600;
+font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.1em;
+color: #FFFFFF;
+}
+
+.header-link:hover,
+.header-link:focus{
+    color: #FF6C00;
+}
+
+
+.header-tel{
+font-weight: 600;
+font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.header-btn{
+font-family: inherit;
+font-weight: 600;
+font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.09em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.hero{
+background-color: black;
+}
+
+.hero-link:hover,
+.hero-link:focus{
+    color: #FF6C00;
+}
+
+.hero-link{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: #303030;
+}
+.hero-top-text{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;   
+    text-transform: uppercase;    
+    color: rgba(157, 164, 189, 0.6);
+}
+
+.hero-title{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.18;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.hero-bottom-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+}
+
+.about-top-text{font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;   
+    color: #303030;
+}
+
+.about-tittle{
+    font-family: 'Raleway' sans-serif;
+font-weight: 700;
+font-size: 42px;
+line-height: 1.17;
+letter-spacing: 0.05em;
+color: #303030;
+}
+
+.about-bottom-text{font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #555555;
+}
+
+.about-text{
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.86;
+letter-spacing: 0.02em;
+color: #555555;
+}
+
+.about-btn{
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;   
+    color: #303030;
+}
+
+.prices{
+background-color: black;
+}
+
+.prices-top-text{
+    font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+text-transform: uppercase;
+color: rgba(157, 164, 189, 0.6);
+}
+
+.prices-tittle{
+    font-family: 'Raleway' sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 1.17;
+letter-spacing: 0.05em;
+color: #FFFFFF
+}
+
+.prices-item-text{
+    font-size: 18px;
+line-height: 1.67;
+letter-spacing: 0.02em;
+color: #9DA4BD;
+}
+
+.prices-btn:is(:hover, :focus) {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase; 
+    color: #FFFFFF;
+}
+
+.benefits-item .count{
+font-weight: 700;
+font-size: 42px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.05em;
+color: #303030;
+}
+
+.benefits-item-text{
+    font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+text-align: center;
+color: #303030;
+}
+
+.benefits-top-text{
+    font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+text-transform: uppercase;
+color: #303030;
+}
+
+.benefits-tittle{
+font-family: 'Raleway'sans-serif;
+font-weight: 700;
+font-size: 42px;
+line-height: 1.17;
+letter-spacing: 0.05em;
+color: #303030;
+}
+
+.benefits-bottom-text{
+    font-size: 18px;
+line-height: 1,67;
+letter-spacing: 0.02em;
+color: #555555;
+}
+
+.barbers-top-text{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+
+    color: #303030;
+}
+
+.barbers-tittle{
+    font-family: 'Raleway' sans-serif;
+    font-size: 42px;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    color: #303030;
+    
+}
+
+.barbers-item-text{
+    font-size: 18px;
+    line-height: 25px;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #303030;
+}
+
+.barbers-item-tittle{
+    font-size: 14px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FF6C00;
+
+}
+
+.gallery-top-text{
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+text-transform: uppercase;
+color: #303030;
+}
+
